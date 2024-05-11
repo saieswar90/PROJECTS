@@ -1,0 +1,3403 @@
+[
+    {
+        "id": "b81470e8806f0203",
+        "type": "tab",
+        "label": "DHT11",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "8e022ddcee9e87df",
+        "type": "tab",
+        "label": "HALL",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "c0de8be3e13fd6c4",
+        "type": "tab",
+        "label": "SOUND",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e9a8f8bde6a6d1a7",
+        "type": "tab",
+        "label": "DISTANCE",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b812edc2889e81ad",
+        "type": "mongodb",
+        "hostname": "127.0.0.1",
+        "port": "27017",
+        "db": "test",
+        "name": ""
+    },
+    {
+        "id": "8e4887320f5edc13",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "172.16.56.247",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "cbfbac36e5b42b89",
+        "type": "mongodb3",
+        "uri": "mongodb+srv://gargeya:1234@cluster0.anoyl09.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+        "name": "",
+        "options": "",
+        "parallelism": "-1"
+    },
+    {
+        "id": "ebe53835650b4f55",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "172.16.56.60",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "78392c3e0f3f0b91",
+        "type": "mongodb",
+        "hostname": "127.0.0.1",
+        "port": "27017",
+        "db": "",
+        "name": ""
+    },
+    {
+        "id": "1c67d3225e519afc",
+        "type": "sqlitedb",
+        "db": "/tmp/sqlite/sensors",
+        "mode": "RWC"
+    },
+    {
+        "id": "b9b5ec3ff378b870",
+        "type": "MySQLdatabase",
+        "name": "spark",
+        "host": "172.16.56.247",
+        "port": "3306",
+        "db": "spark",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "39cbe42dce0a8ded",
+        "type": "JsonWebToken_config",
+        "name": "spark",
+        "secret": "spark"
+    },
+    {
+        "id": "211011abfd04f9bb",
+        "type": "mongodb-config",
+        "hostname": "localhost:27017",
+        "port": "27017",
+        "db": "sensor_data_db",
+        "name": "db"
+    },
+    {
+        "id": "4d7fa0bcd7ebfbaf",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "Times New Roman,Times,serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "Times New Roman,Times,serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "dark"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "true",
+            "allowSwipe": "true",
+            "lockMenu": "icon",
+            "allowTempTheme": "none",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 126,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "d329a9132d04e4ea",
+        "type": "ui_tab",
+        "name": "Truck 1",
+        "icon": "fa-truck",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "7b89957e.3634d8",
+        "type": "ui_tab",
+        "name": "Truck 2",
+        "icon": "fa-truck",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "07c8406f972f719d",
+        "type": "ui_tab",
+        "name": "Truck 3",
+        "icon": "fa-truck",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "eb7c1b87197bb37d",
+        "type": "ui_tab",
+        "name": "Truck 2",
+        "icon": "fa-truck",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "0a2bfdbbe0c45b63",
+        "type": "ui_tab",
+        "name": "Truck 3",
+        "icon": "fa-truck",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "dcec1eb3d2a9d3df",
+        "type": "ui_tab",
+        "name": "Truck 1",
+        "icon": "fa-truck",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "71d996a67cb8d3d6",
+        "type": "ui_group",
+        "name": "SPARK LOGISTIC SERVICES",
+        "tab": "d329a9132d04e4ea",
+        "order": 1,
+        "disp": true,
+        "width": "11",
+        "collapse": false,
+        "info": "h1{\r\n    color:white;\r\n}"
+    },
+    {
+        "id": "2e68dcea.09dca2",
+        "type": "ui_group",
+        "name": "SPARK LOGISTICS SERVICES",
+        "tab": "7b89957e.3634d8",
+        "order": 1,
+        "disp": true,
+        "width": "11",
+        "collapse": false
+    },
+    {
+        "id": "8e832c9355044a0a",
+        "type": "ui_group",
+        "name": "SPARK LOGISTICS SERVICES",
+        "tab": "07c8406f972f719d",
+        "order": 1,
+        "disp": true,
+        "width": "11",
+        "collapse": false
+    },
+    {
+        "id": "26b6ccb12fa80a5c",
+        "type": "ui_group",
+        "name": "SPARK LOGISTIC SERVICES",
+        "tab": "d329a9132d04e4ea",
+        "order": 1,
+        "disp": true,
+        "width": "11",
+        "collapse": false,
+        "info": "h1{\r\n    color:white;\r\n}"
+    },
+    {
+        "id": "6216aeef5ff2539f",
+        "type": "ui_group",
+        "name": "cccc",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "b66ae99acbb0f570",
+        "type": "ui_group",
+        "name": "Map",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "20",
+        "collapse": false
+    },
+    {
+        "id": "96a706d94b041233",
+        "type": "ui_group",
+        "name": "History",
+        "tab": "",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "c9336f990e103ec4",
+        "type": "ui_group",
+        "name": "Speed, Altitude, Accuracy chart",
+        "tab": "",
+        "order": 4,
+        "disp": true,
+        "width": "20",
+        "collapse": false
+    },
+    {
+        "id": "36c27d2ccd839a4f",
+        "type": "ui_group",
+        "name": "Tracks",
+        "tab": "",
+        "order": 5,
+        "disp": true,
+        "width": "20",
+        "collapse": false
+    },
+    {
+        "id": "fd5d30ad9f6cb8d5",
+        "type": "ui_group",
+        "name": "SPARK LOGISTICS SERVICES",
+        "tab": "7b89957e.3634d8",
+        "order": 1,
+        "disp": true,
+        "width": "11",
+        "collapse": false
+    },
+    {
+        "id": "cd611ee4676a5052",
+        "type": "ui_group",
+        "name": "SPARK LOGISTICS SERVICES",
+        "tab": "07c8406f972f719d",
+        "order": 1,
+        "disp": true,
+        "width": "11",
+        "collapse": false
+    },
+    {
+        "id": "3ad66560e7cc2f8c",
+        "type": "ui_group",
+        "name": "Group 2",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "23a9f3a869190b37",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "1647078a96e9b2ec",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "7769e4434dfd0534",
+        "type": "mqtt in",
+        "z": "b81470e8806f0203",
+        "name": "DHT11",
+        "topic": "sensor/dht11",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "8e4887320f5edc13",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 230,
+        "y": 240,
+        "wires": [
+            [
+                "116f0e1d01aab1b0",
+                "5587ee8fb870739e",
+                "d7f176d6fbfcef74",
+                "cf4314509a98c2da"
+            ]
+        ]
+    },
+    {
+        "id": "116f0e1d01aab1b0",
+        "type": "function",
+        "z": "b81470e8806f0203",
+        "name": "Temperature Extraction",
+        "func": "var parts = msg.payload;\nvar x = parts.split(\",\");\nmsg.payload = parseFloat(x[0]);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 140,
+        "wires": [
+            [
+                "e34fae606a3d5592",
+                "a60e308649914b58",
+                "af4bd59f37fd7421"
+            ]
+        ]
+    },
+    {
+        "id": "5587ee8fb870739e",
+        "type": "function",
+        "z": "b81470e8806f0203",
+        "name": "Humidity Extraction",
+        "func": "var parts = msg.payload;\nvar x = parts.split(\",\");\nmsg.payload = parseFloat(x[1]);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 340,
+        "wires": [
+            [
+                "487539c5b16da168",
+                "c51d1149c67d1682",
+                "6873ce3b0a96970d"
+            ]
+        ]
+    },
+    {
+        "id": "487539c5b16da168",
+        "type": "debug",
+        "z": "b81470e8806f0203",
+        "name": "debug 1",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 880,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "a60e308649914b58",
+        "type": "debug",
+        "z": "b81470e8806f0203",
+        "name": "debug 2",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 880,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "0ea6ca0c77f3fbde",
+        "type": "e-mail",
+        "z": "b81470e8806f0203",
+        "server": "smtp.gmail.com",
+        "port": "465",
+        "secure": true,
+        "tls": false,
+        "name": "gargeya.vss2003@gmail.com",
+        "dname": "Email",
+        "output": false,
+        "outputs": 0,
+        "x": 890,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "d7f176d6fbfcef74",
+        "type": "function",
+        "z": "b81470e8806f0203",
+        "name": "Email content",
+        "func": "var parts = msg.payload;\nvar x = parts.split(\",\");\nlet str = \"\";\nif(parseFloat(x[0]) > 27.00){\n    str += \"temperature - \" + x[0] + \", Humidity \" + x[1];\n    msg.payload = str;\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 260,
+        "wires": [
+            [
+                "c217d8b4952c7858",
+                "57763a2651de23ec"
+            ]
+        ]
+    },
+    {
+        "id": "c217d8b4952c7858",
+        "type": "debug",
+        "z": "b81470e8806f0203",
+        "name": "debug 9",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "57763a2651de23ec",
+        "type": "delay",
+        "z": "b81470e8806f0203",
+        "name": "Email Trigger",
+        "pauseType": "delay",
+        "timeout": "30",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "minute",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 650,
+        "y": 200,
+        "wires": [
+            [
+                "0ea6ca0c77f3fbde"
+            ]
+        ]
+    },
+    {
+        "id": "4a65f76bbd38e896",
+        "type": "function",
+        "z": "b81470e8806f0203",
+        "name": "Temperature Extraction",
+        "func": "var parts = msg.payload;\nvar x = parts.split(\",\");\nmsg.payload = parseFloat(x[0]);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 700,
+        "wires": [
+            [
+                "39be8f84a03029d1",
+                "dff674eae6a50a8f",
+                "a6840b36855aab30"
+            ]
+        ]
+    },
+    {
+        "id": "1d787c203e0c786f",
+        "type": "function",
+        "z": "b81470e8806f0203",
+        "name": "Humidity Extraction",
+        "func": "var parts = msg.payload;\nvar x = parts.split(\",\");\nmsg.payload = parseFloat(x[1]);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 900,
+        "wires": [
+            [
+                "76de7639e019548c",
+                "ffbae5add3c4e90b",
+                "e18349abb8ad5a45"
+            ]
+        ]
+    },
+    {
+        "id": "76de7639e019548c",
+        "type": "debug",
+        "z": "b81470e8806f0203",
+        "name": "debug 10",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 900,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "dff674eae6a50a8f",
+        "type": "debug",
+        "z": "b81470e8806f0203",
+        "name": "debug 11",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 900,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "685dc28d7ff025f5",
+        "type": "e-mail",
+        "z": "b81470e8806f0203",
+        "server": "smtp.gmail.com",
+        "port": "465",
+        "secure": true,
+        "tls": false,
+        "name": "gargeya.vss2003@gmail.com",
+        "dname": "Email",
+        "output": false,
+        "outputs": 0,
+        "x": 890,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "ea23cb2b4e355e09",
+        "type": "function",
+        "z": "b81470e8806f0203",
+        "name": "Email content",
+        "func": "var parts = msg.payload;\nvar x = parts.split(\",\");\nlet str = \"\";\nif(parseFloat(x[0]) > 27.00){\n    str += \"temperature - \" + x[0] + \", Humidity \" + x[1];\n    msg.payload = str;\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 820,
+        "wires": [
+            [
+                "ef2713f07ce2e88c",
+                "8dbecffb7eb7e7b6"
+            ]
+        ]
+    },
+    {
+        "id": "ef2713f07ce2e88c",
+        "type": "debug",
+        "z": "b81470e8806f0203",
+        "name": "debug 12",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 700,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "8dbecffb7eb7e7b6",
+        "type": "delay",
+        "z": "b81470e8806f0203",
+        "name": "Email Trigger",
+        "pauseType": "delay",
+        "timeout": "30",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "minute",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 670,
+        "y": 760,
+        "wires": [
+            [
+                "685dc28d7ff025f5"
+            ]
+        ]
+    },
+    {
+        "id": "3a1f8ac6964c8a4a",
+        "type": "function",
+        "z": "b81470e8806f0203",
+        "name": "Temperature Extraction",
+        "func": "var parts = msg.payload;\nvar x = parts.split(\",\");\nmsg.payload = parseFloat(x[0]);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 1240,
+        "wires": [
+            [
+                "3fa7caca76a569ae",
+                "e5defe10b155e04a",
+                "6dcdc82477fbdcd4"
+            ]
+        ]
+    },
+    {
+        "id": "247d348e8e332297",
+        "type": "inject",
+        "z": "b81470e8806f0203",
+        "name": "Hard coded values",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "16.6,55",
+        "payloadType": "str",
+        "x": 250,
+        "y": 1340,
+        "wires": [
+            [
+                "3a1f8ac6964c8a4a",
+                "72a09f3acb6aafb0",
+                "bdd238eec6547fd0",
+                "ee23dfaf74fccecc"
+            ]
+        ]
+    },
+    {
+        "id": "e5defe10b155e04a",
+        "type": "debug",
+        "z": "b81470e8806f0203",
+        "name": "debug 17",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 960,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "72a09f3acb6aafb0",
+        "type": "function",
+        "z": "b81470e8806f0203",
+        "name": "Email content",
+        "func": "var parts = msg.payload;\nvar x = parts.split(\",\");\nlet str = \"\";\nif(parseFloat(x[0]) > 27.00){\n    str += \"temperature - \" + x[0] + \", Humidity \" + x[1];\n    msg.payload = str;\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 1360,
+        "wires": [
+            [
+                "f5f8c1dcc287d1ba",
+                "2c6c147b41fd712d"
+            ]
+        ]
+    },
+    {
+        "id": "bdd238eec6547fd0",
+        "type": "function",
+        "z": "b81470e8806f0203",
+        "name": "Humidity Extraction",
+        "func": "var parts = msg.payload;\nvar x = parts.split(\",\");\nmsg.payload = parseFloat(x[1]);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 1440,
+        "wires": [
+            [
+                "0763556318f20178",
+                "cd59ad4814f3af5f",
+                "08c424c66ecbd6ec"
+            ]
+        ]
+    },
+    {
+        "id": "f5f8c1dcc287d1ba",
+        "type": "debug",
+        "z": "b81470e8806f0203",
+        "name": "debug 18",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 780,
+        "y": 1360,
+        "wires": []
+    },
+    {
+        "id": "2c6c147b41fd712d",
+        "type": "delay",
+        "z": "b81470e8806f0203",
+        "name": "Email Trigger",
+        "pauseType": "delay",
+        "timeout": "30",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "minute",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 750,
+        "y": 1300,
+        "wires": [
+            [
+                "eb66ca0f7b08d43e"
+            ]
+        ]
+    },
+    {
+        "id": "0763556318f20178",
+        "type": "debug",
+        "z": "b81470e8806f0203",
+        "name": "debug 19",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 980,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "eb66ca0f7b08d43e",
+        "type": "e-mail",
+        "z": "b81470e8806f0203",
+        "server": "smtp.gmail.com",
+        "port": "465",
+        "secure": true,
+        "tls": false,
+        "name": "gargeya.vss2003@gmail.com",
+        "dname": "Email",
+        "output": false,
+        "outputs": 0,
+        "x": 970,
+        "y": 1240,
+        "wires": []
+    },
+    {
+        "id": "36a53815a6f55a26",
+        "type": "debug",
+        "z": "b81470e8806f0203",
+        "name": "debug 24",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1150,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "bcb81f93c269e2dd",
+        "type": "debug",
+        "z": "b81470e8806f0203",
+        "name": "debug 25",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1130,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "952190a7a7d03c02",
+        "type": "debug",
+        "z": "b81470e8806f0203",
+        "name": "debug 26",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1140,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "c5f7685800e15756",
+        "type": "debug",
+        "z": "b81470e8806f0203",
+        "name": "debug 27",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1200,
+        "y": 1560,
+        "wires": []
+    },
+    {
+        "id": "0464d7026a741637",
+        "type": "debug",
+        "z": "b81470e8806f0203",
+        "name": "debug 28",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1214,
+        "y": 1328,
+        "wires": []
+    },
+    {
+        "id": "64b096db7612a985",
+        "type": "debug",
+        "z": "b81470e8806f0203",
+        "name": "debug 29",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1156,
+        "y": 995,
+        "wires": []
+    },
+    {
+        "id": "839ba154ea203b19",
+        "type": "http response",
+        "z": "b81470e8806f0203",
+        "name": "Status",
+        "statusCode": "",
+        "headers": {},
+        "x": 1050,
+        "y": 1900,
+        "wires": []
+    },
+    {
+        "id": "905b25a67710eeb3",
+        "type": "http in",
+        "z": "b81470e8806f0203",
+        "name": "Login Page",
+        "url": "/spark",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 630,
+        "y": 1920,
+        "wires": [
+            [
+                "664ad48249e3becd"
+            ]
+        ]
+    },
+    {
+        "id": "664ad48249e3becd",
+        "type": "template",
+        "z": "b81470e8806f0203",
+        "name": "HTML",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>SPARK LOGIN</title>\n    <style>\n        /* Container styles */\n        body {\n            font-family: Arial, sans-serif;\n            display: flex;\n            flex-direction: column;\n            justify-content: center;\n            align-items: center;\n            height: 100vh;\n            margin: 0;\n            background-color: #f2f2f2;\n            background-image: url('https://www.altdigital.tech/wp-content/uploads/2024/01/container-truck-ship-port-ai-generated-image-1024x574.webp');\n            background-size: cover;\n            background-repeat: no-repeat;\n            background-position: center;\n        }\n\n        .head {\n            position: absolute;\n            top: 50px;\n            /* Adjusted top position */\n            color: white;\n            /* Text color */\n            text-align: center;\n            width: 100%;\n        }\n\n        .login-container {\n            background-color: #ffffff;\n            padding: 40px;\n            /* Adjusted padding for increased height */\n            border-radius: 5px;\n            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);\n        }\n\n        /* Animation for the login form */\n        @keyframes slideIn {\n            0% {\n                opacity: 0;\n                transform: translateY(-50px);\n            }\n\n            100% {\n                opacity: 1;\n                transform: translateY(0);\n            }\n        }\n\n        /* Apply animation to the form */\n        #loginForm {\n            opacity: 0;\n            transform: translateY(-50px);\n            animation: slideIn 0.5s ease-in-out forwards;\n        }\n\n        /* Form styles */\n        form {\n            display: flex;\n            flex-direction: column;\n        }\n\n        label {\n            margin-bottom: 10px;\n            /* Increased margin */\n        }\n\n        input[type=\"text\"],\n        input[type=\"password\"] {\n            padding: 12px;\n            /* Increased padding */\n            margin-bottom: 15px;\n            /* Increased margin */\n            border: 1px solid #ccc;\n            border-radius: 4px;\n            box-sizing: border-box;\n            width: 100%;\n        }\n\n        button[type=\"submit\"] {\n            padding: 12px 20px;\n            /* Increased padding */\n            background-color: #4caf50;\n            color: white;\n            border: none;\n            border-radius: 4px;\n            cursor: pointer;\n        }\n\n        button[type=\"submit\"]:hover {\n            background-color: #45a049;\n        }\n    </style>\n</head>\n\n<body>\n    <div class=\"head\">\n        <h1>SPARK LOGISTIC SERVICES</h1>\n    </div>\n    <div class=\"login-container\">\n        <h2 align=\"center\">Login</h2>\n        <form id=\"loginForm\" onsubmit=\"handleSubmit(event)\">\n            <label for=\"username\">Username:</label>\n            <input type=\"text\" id=\"username\" name=\"username\" required>\n            <label for=\"password\">Password:</label>\n            <input type=\"password\" id=\"password\" name=\"password\" required>\n            <button type=\"submit\">Login</button>\n        </form>\n    </div>\n\n    <script>\n        // Function to handle form submission\n        function handleSubmit(event) {\n            event.preventDefault(); // Prevent default form submission\n\n            // Get username and password values\n            var username = document.getElementById(\"username\").value;\n            var password = document.getElementById(\"password\").value;\n\n            // Check if username and password are correct\n            if (username === \"spark\" && password === \"spark\") {\n                // Redirect to the dashboard page in Node-RED\n                window.location.href = \"/ui\";\n            } else {\n                alert(\"Invalid username or password\");\n            }\n        }\n    </script>\n</body>\n\n</html>",
+        "output": "str",
+        "x": 830,
+        "y": 1900,
+        "wires": [
+            [
+                "839ba154ea203b19"
+            ]
+        ]
+    },
+    {
+        "id": "cf4314509a98c2da",
+        "type": "function",
+        "z": "b81470e8806f0203",
+        "name": "Hist_Data",
+        "func": "var parts = msg.payload;\nvar x = parts.split(\",\");\nvar currentDate = new Date();\n\nvar year = currentDate.getFullYear();\nvar month = ('0' + (currentDate.getMonth() + 1)).slice(-2); \nvar day = ('0' + currentDate.getDate()).slice(-2);\nvar hours = ('0' + currentDate.getHours()).slice(-2);\nvar minutes = ('0' + currentDate.getMinutes()).slice(-2);\nvar seconds = ('0' + currentDate.getSeconds()).slice(-2);\nvar milliseconds = ('00' + currentDate.getMilliseconds()).slice(-3);\n\nvar customFormat = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}.${milliseconds}`;\nvar jsonobj = {\n    \"temperature\" : x[0],\n    \"humidity\" : x[1],\n    \"time\" : customFormat\n};\n\nmsg.payload = jsonobj;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 220,
+        "y": 460,
+        "wires": [
+            [
+                "54234bdade07d999"
+            ]
+        ]
+    },
+    {
+        "id": "d3b629ba57d49333",
+        "type": "debug",
+        "z": "b81470e8806f0203",
+        "name": "debug 38",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 700,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "ddf19fc606107986",
+        "type": "mongodb3 in",
+        "z": "b81470e8806f0203",
+        "service": "_ext_",
+        "configNode": "cbfbac36e5b42b89",
+        "name": "Mongo",
+        "collection": "dht11_truck1",
+        "operation": "insert",
+        "x": 550,
+        "y": 460,
+        "wires": [
+            [
+                "d3b629ba57d49333"
+            ]
+        ]
+    },
+    {
+        "id": "467e101a969e1b9a",
+        "type": "function",
+        "z": "b81470e8806f0203",
+        "name": "Hist_Data",
+        "func": "var parts = msg.payload;\nvar x = parts.split(\",\");\nvar currentDate = new Date();\n\nvar year = currentDate.getFullYear();\nvar month = ('0' + (currentDate.getMonth() + 1)).slice(-2); \nvar day = ('0' + currentDate.getDate()).slice(-2);\nvar hours = ('0' + currentDate.getHours()).slice(-2);\nvar minutes = ('0' + currentDate.getMinutes()).slice(-2);\nvar seconds = ('0' + currentDate.getSeconds()).slice(-2);\nvar milliseconds = ('00' + currentDate.getMilliseconds()).slice(-3);\n\nvar customFormat = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}.${milliseconds}`;\nvar jsonobj = {\n    \"temperature\" : x[0],\n    \"humidity\" : x[1],\n    \"time\" : customFormat\n};\n\nmsg.payload = jsonobj;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 220,
+        "y": 1040,
+        "wires": [
+            [
+                "90985e5f6a7bc461"
+            ]
+        ]
+    },
+    {
+        "id": "75344b30243efa21",
+        "type": "debug",
+        "z": "b81470e8806f0203",
+        "name": "debug 39",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 640,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "aba9c725b6cefcc9",
+        "type": "mongodb3 in",
+        "z": "b81470e8806f0203",
+        "service": "_ext_",
+        "configNode": "cbfbac36e5b42b89",
+        "name": "Mongo",
+        "collection": "dht11_truck2",
+        "operation": "insert",
+        "x": 470,
+        "y": 1020,
+        "wires": [
+            [
+                "75344b30243efa21"
+            ]
+        ]
+    },
+    {
+        "id": "ee23dfaf74fccecc",
+        "type": "function",
+        "z": "b81470e8806f0203",
+        "name": "Hist_Data",
+        "func": "var parts = msg.payload;\nvar x = parts.split(\",\");\nvar currentDate = new Date();\n\nvar year = currentDate.getFullYear();\nvar month = ('0' + (currentDate.getMonth() + 1)).slice(-2); \nvar day = ('0' + currentDate.getDate()).slice(-2);\nvar hours = ('0' + currentDate.getHours()).slice(-2);\nvar minutes = ('0' + currentDate.getMinutes()).slice(-2);\nvar seconds = ('0' + currentDate.getSeconds()).slice(-2);\nvar milliseconds = ('00' + currentDate.getMilliseconds()).slice(-3);\n\nvar customFormat = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}.${milliseconds}`;\nvar jsonobj = {\n    \"temperature\" : x[0],\n    \"humidity\" : x[1],\n    \"time\" : customFormat\n};\n\nmsg.payload = jsonobj;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 160,
+        "y": 1500,
+        "wires": [
+            [
+                "06ec949f9ed02a00"
+            ]
+        ]
+    },
+    {
+        "id": "bef18173d120d020",
+        "type": "debug",
+        "z": "b81470e8806f0203",
+        "name": "debug 40",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 684,
+        "y": 1547,
+        "wires": []
+    },
+    {
+        "id": "2b2376dbd3457f43",
+        "type": "mongodb3 in",
+        "z": "b81470e8806f0203",
+        "service": "_ext_",
+        "configNode": "cbfbac36e5b42b89",
+        "name": "Mongo",
+        "collection": "dht11_truck3",
+        "operation": "insert",
+        "x": 524,
+        "y": 1507,
+        "wires": [
+            [
+                "bef18173d120d020"
+            ]
+        ]
+    },
+    {
+        "id": "64b863d7f567d8d4",
+        "type": "inject",
+        "z": "b81470e8806f0203",
+        "name": "Hard coded values",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "25.76,60.45",
+        "payloadType": "str",
+        "x": 190,
+        "y": 820,
+        "wires": [
+            [
+                "4a65f76bbd38e896",
+                "ea23cb2b4e355e09",
+                "1d787c203e0c786f",
+                "467e101a969e1b9a"
+            ]
+        ]
+    },
+    {
+        "id": "54234bdade07d999",
+        "type": "delay",
+        "z": "b81470e8806f0203",
+        "name": "Delay",
+        "pauseType": "rate",
+        "timeout": "30",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "30",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 350,
+        "y": 540,
+        "wires": [
+            [
+                "ddf19fc606107986"
+            ]
+        ]
+    },
+    {
+        "id": "06ec949f9ed02a00",
+        "type": "delay",
+        "z": "b81470e8806f0203",
+        "name": "Delay",
+        "pauseType": "rate",
+        "timeout": "30",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "30",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 270,
+        "y": 1560,
+        "wires": [
+            [
+                "2b2376dbd3457f43"
+            ]
+        ]
+    },
+    {
+        "id": "90985e5f6a7bc461",
+        "type": "delay",
+        "z": "b81470e8806f0203",
+        "name": "Delay",
+        "pauseType": "rate",
+        "timeout": "30",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "30",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 310,
+        "y": 1100,
+        "wires": [
+            [
+                "aba9c725b6cefcc9"
+            ]
+        ]
+    },
+    {
+        "id": "e34fae606a3d5592",
+        "type": "ui_gauge",
+        "z": "b81470e8806f0203",
+        "name": "",
+        "group": "71d996a67cb8d3d6",
+        "order": 3,
+        "width": 5,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Temperature of Cargo",
+        "label": "C",
+        "format": "{{msg.payload}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 920,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "c51d1149c67d1682",
+        "type": "ui_gauge",
+        "z": "b81470e8806f0203",
+        "name": "",
+        "group": "71d996a67cb8d3d6",
+        "order": 5,
+        "width": 5,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Humidity of Cargo",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 910,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "39be8f84a03029d1",
+        "type": "ui_gauge",
+        "z": "b81470e8806f0203",
+        "name": "",
+        "group": "2e68dcea.09dca2",
+        "order": 2,
+        "width": 5,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Temperature of Cargo",
+        "label": "C",
+        "format": "{{msg.payload}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 940,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "ffbae5add3c4e90b",
+        "type": "ui_gauge",
+        "z": "b81470e8806f0203",
+        "name": "",
+        "group": "2e68dcea.09dca2",
+        "order": 4,
+        "width": 5,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Humidity of Cargo",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 930,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "3fa7caca76a569ae",
+        "type": "ui_gauge",
+        "z": "b81470e8806f0203",
+        "name": "",
+        "group": "8e832c9355044a0a",
+        "order": 2,
+        "width": 5,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Temperature of Cargo",
+        "label": "C",
+        "format": "{{msg.payload}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 1020,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "cd59ad4814f3af5f",
+        "type": "ui_gauge",
+        "z": "b81470e8806f0203",
+        "name": "",
+        "group": "8e832c9355044a0a",
+        "order": 4,
+        "width": 5,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Humidity of Cargo",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 1010,
+        "y": 1500,
+        "wires": []
+    },
+    {
+        "id": "af4bd59f37fd7421",
+        "type": "ui_chart",
+        "z": "b81470e8806f0203",
+        "name": "Temperature table",
+        "group": "71d996a67cb8d3d6",
+        "order": 4,
+        "width": 6,
+        "height": 4,
+        "label": "Temperature History",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "step",
+        "nodata": "No data recieved",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "40",
+        "removeOlder": "1",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#1487b8",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 950,
+        "y": 240,
+        "wires": [
+            [
+                "36a53815a6f55a26"
+            ]
+        ]
+    },
+    {
+        "id": "a6840b36855aab30",
+        "type": "ui_chart",
+        "z": "b81470e8806f0203",
+        "name": "Temperature table",
+        "group": "2e68dcea.09dca2",
+        "order": 3,
+        "width": 6,
+        "height": 4,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "No data recieved",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "40",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#1487b8",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 930,
+        "y": 800,
+        "wires": [
+            [
+                "bcb81f93c269e2dd"
+            ]
+        ]
+    },
+    {
+        "id": "6873ce3b0a96970d",
+        "type": "ui_chart",
+        "z": "b81470e8806f0203",
+        "name": "humidity table",
+        "group": "71d996a67cb8d3d6",
+        "order": 6,
+        "width": 6,
+        "height": 4,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "No data recieved",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#1487b8",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 900,
+        "y": 460,
+        "wires": [
+            [
+                "952190a7a7d03c02"
+            ]
+        ]
+    },
+    {
+        "id": "08c424c66ecbd6ec",
+        "type": "ui_chart",
+        "z": "b81470e8806f0203",
+        "name": "humidity table",
+        "group": "8e832c9355044a0a",
+        "order": 5,
+        "width": 6,
+        "height": 4,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "No data recieved",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#1487b8",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 980,
+        "y": 1540,
+        "wires": [
+            [
+                "c5f7685800e15756"
+            ]
+        ]
+    },
+    {
+        "id": "6dcdc82477fbdcd4",
+        "type": "ui_chart",
+        "z": "b81470e8806f0203",
+        "name": "Temperature table",
+        "group": "8e832c9355044a0a",
+        "order": 3,
+        "width": 6,
+        "height": 4,
+        "label": "Temperature History",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "step",
+        "nodata": "No data recieved",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "40",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#1487b8",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 1030,
+        "y": 1340,
+        "wires": [
+            [
+                "0464d7026a741637"
+            ]
+        ]
+    },
+    {
+        "id": "e18349abb8ad5a45",
+        "type": "ui_chart",
+        "z": "b81470e8806f0203",
+        "name": "humidity table",
+        "group": "2e68dcea.09dca2",
+        "order": 5,
+        "width": 6,
+        "height": 4,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "No data recieved",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#1487b8",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 980,
+        "y": 1000,
+        "wires": [
+            [
+                "64b096db7612a985"
+            ]
+        ]
+    },
+    {
+        "id": "f15856430af2e3b4",
+        "type": "ui_template",
+        "z": "b81470e8806f0203",
+        "group": "71d996a67cb8d3d6",
+        "name": "Style",
+        "order": 1,
+        "width": 1,
+        "height": 1,
+        "format": "<div ng-bind-html=\"msg.payload\"></div>\n<style>\n    md-card{\n        box-shadow:rgba(0,0,0,0.35) 0px 5px 15px;\n        border-radius:10px;\n    }\n    .label nr-dashboard-gauge-title nr-dashboard-gauge-titlel{\n        font-weight:bold;\n    }\n    md-content{\n        background-image: url('https://media.licdn.com/dms/image/C5612AQEkukLlDOJkxg/article-cover_image-shrink_720_1280/0/1620975545589?e=2147483647&v=beta&t=xJlrTm9_m-tNWZi4mq2yW9wBeyUW-swKrblJFpwHVX0');\n        background-size: cover;\n    }\n    \n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "global",
+        "x": 410,
+        "y": 1740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d95cbba0bde5beee",
+        "type": "ui_template",
+        "z": "b81470e8806f0203",
+        "group": "2e68dcea.09dca2",
+        "name": "Style",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<div ng-bind-html=\"msg.payload\"></div>\n<style>\n    md-card{\n        box-shadow:rgba(0,0,0,0.35) 0px 5px 15px;\n        border-radius:10px;\n    }\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "global",
+        "x": 450,
+        "y": 1800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3b22fa608c9cd9f9",
+        "type": "ui_template",
+        "z": "b81470e8806f0203",
+        "group": "8e832c9355044a0a",
+        "name": "Style",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<div ng-bind-html=\"msg.payload\"></div>\n<style>\n    md-card{\n        box-shadow:rgba(0,0,0,0.35) 0px 5px 15px;\n        border-radius:10px;\n    }\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "global",
+        "x": 530,
+        "y": 1860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "eb8c0ed91bdf4d3d",
+        "type": "mqtt in",
+        "z": "8e022ddcee9e87df",
+        "name": "Door",
+        "topic": "sensor/hall",
+        "qos": "2",
+        "datatype": "utf8",
+        "broker": "8e4887320f5edc13",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 270,
+        "y": 280,
+        "wires": [
+            [
+                "2dfe5feaa9f171f2",
+                "7fecc1a2d1d6175a",
+                "fbf25788c83ef8f3"
+            ]
+        ]
+    },
+    {
+        "id": "2dfe5feaa9f171f2",
+        "type": "function",
+        "z": "8e022ddcee9e87df",
+        "name": "Door message",
+        "func": "if(msg.payload == '0'){\n    msg.payload = \"Door is Locked\";\n}\nelse{\n    msg.payload = \"Door is open\";\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 300,
+        "wires": [
+            [
+                "bc9f02287cf69467",
+                "222719a222e81221"
+            ]
+        ]
+    },
+    {
+        "id": "222719a222e81221",
+        "type": "debug",
+        "z": "8e022ddcee9e87df",
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 870,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "62ebd10c83138966",
+        "type": "function",
+        "z": "8e022ddcee9e87df",
+        "name": "Door message",
+        "func": "if(msg.payload == '0'){\n    msg.payload = \"Door is Locked\";\n}\nelse{\n    msg.payload = \"Door is open\";\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 600,
+        "wires": [
+            [
+                "8d9e5ff52a7e705e",
+                "8fb78fcf0569b155"
+            ]
+        ]
+    },
+    {
+        "id": "8fb78fcf0569b155",
+        "type": "debug",
+        "z": "8e022ddcee9e87df",
+        "name": "debug 14",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 850,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "f82a060dd9c15eee",
+        "type": "function",
+        "z": "8e022ddcee9e87df",
+        "name": "Door message",
+        "func": "if(msg.payload == '0'){\n    msg.payload = \"Door is Locked\";\n}\nelse{\n    msg.payload = \"Door is open\";\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 880,
+        "wires": [
+            [
+                "c3f7789e22050bc3",
+                "e7c1559ada7fa2c3"
+            ]
+        ]
+    },
+    {
+        "id": "e7c1559ada7fa2c3",
+        "type": "debug",
+        "z": "8e022ddcee9e87df",
+        "name": "debug 20",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 830,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "f29f4fdf421c3d5f",
+        "type": "inject",
+        "z": "8e022ddcee9e87df",
+        "name": "Hard coded values",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "0",
+        "payloadType": "num",
+        "x": 310,
+        "y": 880,
+        "wires": [
+            [
+                "f82a060dd9c15eee",
+                "dcf28ae125e1c138",
+                "e5c7f99a64a452b4"
+            ]
+        ]
+    },
+    {
+        "id": "7fecc1a2d1d6175a",
+        "type": "function",
+        "z": "8e022ddcee9e87df",
+        "name": "Alert",
+        "func": "if(msg.payload == \"1\"){\n    msg.payload = \"The door has been open since 10 seconds\";\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 240,
+        "wires": [
+            [
+                "ef3d9e2993405450"
+            ]
+        ]
+    },
+    {
+        "id": "ef3d9e2993405450",
+        "type": "rbe",
+        "z": "8e022ddcee9e87df",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 670,
+        "y": 240,
+        "wires": [
+            [
+                "8f710148633d3606"
+            ]
+        ]
+    },
+    {
+        "id": "8f710148633d3606",
+        "type": "delay",
+        "z": "8e022ddcee9e87df",
+        "name": "Door Trigger",
+        "pauseType": "delay",
+        "timeout": "10",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "minute",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 870,
+        "y": 240,
+        "wires": [
+            [
+                "a7e7228694349711",
+                "545f0ded0890f52f"
+            ]
+        ]
+    },
+    {
+        "id": "a7e7228694349711",
+        "type": "e-mail",
+        "z": "8e022ddcee9e87df",
+        "server": "smtp.gmail.com",
+        "port": "465",
+        "secure": true,
+        "tls": false,
+        "name": "gargeya.vss2003@gmail.com",
+        "dname": "",
+        "output": false,
+        "outputs": 0,
+        "x": 1130,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "545f0ded0890f52f",
+        "type": "debug",
+        "z": "8e022ddcee9e87df",
+        "name": "debug 30",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1050,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "a69d13c3fea6960e",
+        "type": "function",
+        "z": "8e022ddcee9e87df",
+        "name": "Alert",
+        "func": "if(msg.payload == \"1\"){\n    msg.payload = \"The door has been open since 10 seconds\";\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 540,
+        "wires": [
+            [
+                "4336af8cd935c9ed"
+            ]
+        ]
+    },
+    {
+        "id": "4336af8cd935c9ed",
+        "type": "rbe",
+        "z": "8e022ddcee9e87df",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 680,
+        "y": 540,
+        "wires": [
+            [
+                "0ca77a65a60179a3"
+            ]
+        ]
+    },
+    {
+        "id": "0ca77a65a60179a3",
+        "type": "delay",
+        "z": "8e022ddcee9e87df",
+        "name": "Door Trigger",
+        "pauseType": "delay",
+        "timeout": "10",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "minute",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 880,
+        "y": 540,
+        "wires": [
+            [
+                "312517fdbb51c294",
+                "4cb12a9a7572d1ae"
+            ]
+        ]
+    },
+    {
+        "id": "312517fdbb51c294",
+        "type": "e-mail",
+        "z": "8e022ddcee9e87df",
+        "server": "smtp.gmail.com",
+        "port": "465",
+        "secure": true,
+        "tls": false,
+        "name": "gargeya.vss2003@gmail.com",
+        "dname": "",
+        "output": false,
+        "outputs": 0,
+        "x": 1140,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "4cb12a9a7572d1ae",
+        "type": "debug",
+        "z": "8e022ddcee9e87df",
+        "name": "debug 31",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1060,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "dcf28ae125e1c138",
+        "type": "function",
+        "z": "8e022ddcee9e87df",
+        "name": "Alert",
+        "func": "if(msg.payload == \"1\"){\n    msg = \"The door has been open since 10 seconds\";\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 820,
+        "wires": [
+            [
+                "a2f905cda42598f5"
+            ]
+        ]
+    },
+    {
+        "id": "a2f905cda42598f5",
+        "type": "rbe",
+        "z": "8e022ddcee9e87df",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 740,
+        "y": 820,
+        "wires": [
+            [
+                "d29e6de893c1d913"
+            ]
+        ]
+    },
+    {
+        "id": "d29e6de893c1d913",
+        "type": "delay",
+        "z": "8e022ddcee9e87df",
+        "name": "Door Trigger",
+        "pauseType": "delay",
+        "timeout": "10",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "minute",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 940,
+        "y": 820,
+        "wires": [
+            [
+                "375947cc6df96062",
+                "2a69a315dedd7678"
+            ]
+        ]
+    },
+    {
+        "id": "375947cc6df96062",
+        "type": "e-mail",
+        "z": "8e022ddcee9e87df",
+        "server": "smtp.gmail.com",
+        "port": "465",
+        "secure": true,
+        "tls": false,
+        "name": "gargeya.vss2003@gmail.com",
+        "dname": "",
+        "output": false,
+        "outputs": 0,
+        "x": 1200,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "2a69a315dedd7678",
+        "type": "debug",
+        "z": "8e022ddcee9e87df",
+        "name": "debug 32",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "9c6b854a161f0e13",
+        "type": "mongodb3 in",
+        "z": "8e022ddcee9e87df",
+        "service": "_ext_",
+        "configNode": "cbfbac36e5b42b89",
+        "name": "Mongo",
+        "collection": "door_status1",
+        "operation": "insert",
+        "x": 490,
+        "y": 380,
+        "wires": [
+            [
+                "312069e383fa4437"
+            ]
+        ]
+    },
+    {
+        "id": "312069e383fa4437",
+        "type": "debug",
+        "z": "8e022ddcee9e87df",
+        "name": "debug 41",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 660,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "fbf25788c83ef8f3",
+        "type": "function",
+        "z": "8e022ddcee9e87df",
+        "name": "Door data",
+        "func": "var parts = msg.payload;\nvar x = parts.split(\",\");\nvar currentDate = new Date();\n\nvar year = currentDate.getFullYear();\nvar month = ('0' + (currentDate.getMonth() + 1)).slice(-2); \nvar day = ('0' + currentDate.getDate()).slice(-2);\nvar hours = ('0' + currentDate.getHours()).slice(-2);\nvar minutes = ('0' + currentDate.getMinutes()).slice(-2);\nvar seconds = ('0' + currentDate.getSeconds()).slice(-2);\nvar milliseconds = ('00' + currentDate.getMilliseconds()).slice(-3);\n\nvar customFormat = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}.${milliseconds}`;\n\n\nvar json = {\n    \"Door_Status\" : msg.payload,\n    \"Time\" : customFormat\n};\n\nmsg.payload = json;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 380,
+        "wires": [
+            [
+                "bde74f2f96f210e8"
+            ]
+        ]
+    },
+    {
+        "id": "ede412b895759977",
+        "type": "mongodb3 in",
+        "z": "8e022ddcee9e87df",
+        "service": "_ext_",
+        "configNode": "cbfbac36e5b42b89",
+        "name": "Mongo",
+        "collection": "door_status2",
+        "operation": "insert",
+        "x": 450,
+        "y": 700,
+        "wires": [
+            [
+                "20dae0ca18010d9c"
+            ]
+        ]
+    },
+    {
+        "id": "20dae0ca18010d9c",
+        "type": "debug",
+        "z": "8e022ddcee9e87df",
+        "name": "debug 44",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 620,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "08f365292008577d",
+        "type": "function",
+        "z": "8e022ddcee9e87df",
+        "name": "Door data",
+        "func": "var parts = msg.payload;\nvar x = parts.split(\",\");\nvar currentDate = new Date();\n\nvar year = currentDate.getFullYear();\nvar month = ('0' + (currentDate.getMonth() + 1)).slice(-2); \nvar day = ('0' + currentDate.getDate()).slice(-2);\nvar hours = ('0' + currentDate.getHours()).slice(-2);\nvar minutes = ('0' + currentDate.getMinutes()).slice(-2);\nvar seconds = ('0' + currentDate.getSeconds()).slice(-2);\nvar milliseconds = ('00' + currentDate.getMilliseconds()).slice(-3);\n\nvar customFormat = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}.${milliseconds}`;\n\n\nvar json = {\n    \"Door_Status\" : msg.payload,\n    \"Time\" : customFormat\n};\n\nmsg.payload = json;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 700,
+        "wires": [
+            [
+                "d0577aad94b02b4b"
+            ]
+        ]
+    },
+    {
+        "id": "547d75d748fd1375",
+        "type": "mongodb3 in",
+        "z": "8e022ddcee9e87df",
+        "service": "_ext_",
+        "configNode": "cbfbac36e5b42b89",
+        "name": "Mongo",
+        "collection": "door_status3",
+        "operation": "insert",
+        "x": 430,
+        "y": 1020,
+        "wires": [
+            [
+                "b5966f19f60c79b5"
+            ]
+        ]
+    },
+    {
+        "id": "b5966f19f60c79b5",
+        "type": "debug",
+        "z": "8e022ddcee9e87df",
+        "name": "debug 45",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 610,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "e5c7f99a64a452b4",
+        "type": "function",
+        "z": "8e022ddcee9e87df",
+        "name": "Door data",
+        "func": "var parts = msg.payload;\nvar x = parts.split(\",\");\nvar currentDate = new Date();\n\nvar year = currentDate.getFullYear();\nvar month = ('0' + (currentDate.getMonth() + 1)).slice(-2); \nvar day = ('0' + currentDate.getDate()).slice(-2);\nvar hours = ('0' + currentDate.getHours()).slice(-2);\nvar minutes = ('0' + currentDate.getMinutes()).slice(-2);\nvar seconds = ('0' + currentDate.getSeconds()).slice(-2);\nvar milliseconds = ('00' + currentDate.getMilliseconds()).slice(-3);\n\nvar customFormat = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}.${milliseconds}`;\n\n\nvar json = {\n    \"Door_Status\" : msg.payload,\n    \"Time\" : customFormat\n};\n\nmsg.payload = json;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 1020,
+        "wires": [
+            [
+                "c5fcece6673d7d26"
+            ]
+        ]
+    },
+    {
+        "id": "bde74f2f96f210e8",
+        "type": "delay",
+        "z": "8e022ddcee9e87df",
+        "name": "Delay",
+        "pauseType": "rate",
+        "timeout": "30",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "30",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 370,
+        "y": 440,
+        "wires": [
+            [
+                "9c6b854a161f0e13"
+            ]
+        ]
+    },
+    {
+        "id": "d0577aad94b02b4b",
+        "type": "delay",
+        "z": "8e022ddcee9e87df",
+        "name": "Delay",
+        "pauseType": "rate",
+        "timeout": "30",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "30",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 353.79998779296875,
+        "y": 761.2000122070312,
+        "wires": [
+            [
+                "ede412b895759977"
+            ]
+        ]
+    },
+    {
+        "id": "c5fcece6673d7d26",
+        "type": "delay",
+        "z": "8e022ddcee9e87df",
+        "name": "Delay",
+        "pauseType": "rate",
+        "timeout": "30",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "30",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 330,
+        "y": 1100,
+        "wires": [
+            [
+                "547d75d748fd1375"
+            ]
+        ]
+    },
+    {
+        "id": "6e58bbf5f441caac",
+        "type": "inject",
+        "z": "8e022ddcee9e87df",
+        "name": "Hard coded values",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 270,
+        "y": 600,
+        "wires": [
+            [
+                "a69d13c3fea6960e",
+                "62ebd10c83138966",
+                "08f365292008577d"
+            ]
+        ]
+    },
+    {
+        "id": "bc9f02287cf69467",
+        "type": "ui_text",
+        "z": "8e022ddcee9e87df",
+        "group": "71d996a67cb8d3d6",
+        "order": 8,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Door Lock Status",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 930,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "8d9e5ff52a7e705e",
+        "type": "ui_text",
+        "z": "8e022ddcee9e87df",
+        "group": "2e68dcea.09dca2",
+        "order": 6,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Door Lock Status",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 910,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "c3f7789e22050bc3",
+        "type": "ui_text",
+        "z": "8e022ddcee9e87df",
+        "group": "8e832c9355044a0a",
+        "order": 6,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Door Lock Status",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 890,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "ea5fc7213cd87f8e",
+        "type": "mqtt in",
+        "z": "c0de8be3e13fd6c4",
+        "name": "Sound",
+        "topic": "sensor/sound",
+        "qos": "2",
+        "datatype": "utf8",
+        "broker": "8e4887320f5edc13",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 310,
+        "y": 80,
+        "wires": [
+            [
+                "3dda6732bf4ec1a3",
+                "33701b7026065498",
+                "ef0a417d446d5038"
+            ]
+        ]
+    },
+    {
+        "id": "3dda6732bf4ec1a3",
+        "type": "debug",
+        "z": "c0de8be3e13fd6c4",
+        "name": "debug 13",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 860,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "7c25d7630685e613",
+        "type": "debug",
+        "z": "c0de8be3e13fd6c4",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 880,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "33701b7026065498",
+        "type": "function",
+        "z": "c0de8be3e13fd6c4",
+        "name": "Engine status",
+        "func": "if(msg.payload < 200){\n    msg.payload = \"Engine is switched Off\";\n}\nelse{\n    msg.payload = \"Engine is running\";\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 80,
+        "wires": [
+            [
+                "b67c40958913f51f"
+            ]
+        ]
+    },
+    {
+        "id": "e3ac0ca0bd60b244",
+        "type": "function",
+        "z": "c0de8be3e13fd6c4",
+        "name": "Engine status",
+        "func": "if(msg.payload < 200){\n    msg.payload = \"Engine is switched Off\";\n}\nelse{\n    msg.payload = \"Engine is running\";\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 420,
+        "wires": [
+            [
+                "7cfdb28d850ff251"
+            ]
+        ]
+    },
+    {
+        "id": "e85a73eb209d1bc8",
+        "type": "debug",
+        "z": "c0de8be3e13fd6c4",
+        "name": "debug 23",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 870,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "7f11c8c7e41110d8",
+        "type": "function",
+        "z": "c0de8be3e13fd6c4",
+        "name": "Engine status",
+        "func": "if(msg.payload < 200){\n    msg.payload = \"Engine is switched Off\";\n}\nelse{\n    msg.payload = \"Engine is running\";\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 720,
+        "wires": [
+            [
+                "e1cf6510bcc19130"
+            ]
+        ]
+    },
+    {
+        "id": "219cee8d0fea195e",
+        "type": "inject",
+        "z": "c0de8be3e13fd6c4",
+        "name": "Hard coded values",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "234",
+        "payloadType": "num",
+        "x": 350,
+        "y": 760,
+        "wires": [
+            [
+                "7f11c8c7e41110d8",
+                "e85a73eb209d1bc8",
+                "6d2a396872f669a7"
+            ]
+        ]
+    },
+    {
+        "id": "3302c77e391d0a76",
+        "type": "mongodb3 in",
+        "z": "c0de8be3e13fd6c4",
+        "service": "_ext_",
+        "configNode": "cbfbac36e5b42b89",
+        "name": "Mongo",
+        "collection": "sound_1",
+        "operation": "insert",
+        "x": 470,
+        "y": 260,
+        "wires": [
+            [
+                "b7251e779adfa6ba"
+            ]
+        ]
+    },
+    {
+        "id": "b7251e779adfa6ba",
+        "type": "debug",
+        "z": "c0de8be3e13fd6c4",
+        "name": "debug 46",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 660,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "ef0a417d446d5038",
+        "type": "function",
+        "z": "c0de8be3e13fd6c4",
+        "name": "Engine Sound Data",
+        "func": "var parts = msg.payload;\nvar x = parts.split(\",\");\nvar currentDate = new Date();\n\nvar year = currentDate.getFullYear();\nvar month = ('0' + (currentDate.getMonth() + 1)).slice(-2); \nvar day = ('0' + currentDate.getDate()).slice(-2);\nvar hours = ('0' + currentDate.getHours()).slice(-2);\nvar minutes = ('0' + currentDate.getMinutes()).slice(-2);\nvar seconds = ('0' + currentDate.getSeconds()).slice(-2);\nvar milliseconds = ('00' + currentDate.getMilliseconds()).slice(-3);\n\nvar customFormat = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}.${milliseconds}`;\n\n\nvar json = {\n    \"Sound\" : msg.payload,\n    \"Time\" : customFormat\n};\n\nmsg.payload = json;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 190,
+        "y": 260,
+        "wires": [
+            [
+                "114abd3898188981"
+            ]
+        ]
+    },
+    {
+        "id": "85a1a750d171ff8c",
+        "type": "mongodb3 in",
+        "z": "c0de8be3e13fd6c4",
+        "service": "_ext_",
+        "configNode": "cbfbac36e5b42b89",
+        "name": "Mongo",
+        "collection": "sound_3",
+        "operation": "insert",
+        "x": 550,
+        "y": 920,
+        "wires": [
+            [
+                "6fd792a3e4ad1c73"
+            ]
+        ]
+    },
+    {
+        "id": "6fd792a3e4ad1c73",
+        "type": "debug",
+        "z": "c0de8be3e13fd6c4",
+        "name": "debug 47",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "6d2a396872f669a7",
+        "type": "function",
+        "z": "c0de8be3e13fd6c4",
+        "name": "Engine Sound Data",
+        "func": "var parts = msg.payload;\nvar x = parts.split(\",\");\nvar currentDate = new Date();\n\nvar year = currentDate.getFullYear();\nvar month = ('0' + (currentDate.getMonth() + 1)).slice(-2); \nvar day = ('0' + currentDate.getDate()).slice(-2);\nvar hours = ('0' + currentDate.getHours()).slice(-2);\nvar minutes = ('0' + currentDate.getMinutes()).slice(-2);\nvar seconds = ('0' + currentDate.getSeconds()).slice(-2);\nvar milliseconds = ('00' + currentDate.getMilliseconds()).slice(-3);\n\nvar customFormat = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}.${milliseconds}`;\n\n\nvar json = {\n    \"Sound\" : msg.payload,\n    \"Time\" : customFormat\n};\n\nmsg.payload = json;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 230,
+        "y": 920,
+        "wires": [
+            [
+                "13d2c6b1548af1b3"
+            ]
+        ]
+    },
+    {
+        "id": "4ed89993b7bb6778",
+        "type": "mongodb3 in",
+        "z": "c0de8be3e13fd6c4",
+        "service": "_ext_",
+        "configNode": "cbfbac36e5b42b89",
+        "name": "Mongo",
+        "collection": "sound_2",
+        "operation": "insert",
+        "x": 490,
+        "y": 560,
+        "wires": [
+            [
+                "579638634cfeaee3"
+            ]
+        ]
+    },
+    {
+        "id": "579638634cfeaee3",
+        "type": "debug",
+        "z": "c0de8be3e13fd6c4",
+        "name": "debug 48",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 660,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "3058e4c246504b04",
+        "type": "function",
+        "z": "c0de8be3e13fd6c4",
+        "name": "Engine Sound Data",
+        "func": "var parts = msg.payload;\nvar x = parts.split(\",\");\nvar currentDate = new Date();\n\nvar year = currentDate.getFullYear();\nvar month = ('0' + (currentDate.getMonth() + 1)).slice(-2); \nvar day = ('0' + currentDate.getDate()).slice(-2);\nvar hours = ('0' + currentDate.getHours()).slice(-2);\nvar minutes = ('0' + currentDate.getMinutes()).slice(-2);\nvar seconds = ('0' + currentDate.getSeconds()).slice(-2);\nvar milliseconds = ('00' + currentDate.getMilliseconds()).slice(-3);\n\nvar customFormat = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}.${milliseconds}`;\n\n\nvar json = {\n    \"Sound\" : msg.payload,\n    \"Time\" : customFormat\n};\n\nmsg.payload = json;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 190,
+        "y": 560,
+        "wires": [
+            [
+                "7045b93af2a6cc9b"
+            ]
+        ]
+    },
+    {
+        "id": "114abd3898188981",
+        "type": "delay",
+        "z": "c0de8be3e13fd6c4",
+        "name": "Delay",
+        "pauseType": "rate",
+        "timeout": "30",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "30",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 310,
+        "y": 340,
+        "wires": [
+            [
+                "3302c77e391d0a76"
+            ]
+        ]
+    },
+    {
+        "id": "7045b93af2a6cc9b",
+        "type": "delay",
+        "z": "c0de8be3e13fd6c4",
+        "name": "Delay",
+        "pauseType": "rate",
+        "timeout": "30",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "30",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 270,
+        "y": 660,
+        "wires": [
+            [
+                "4ed89993b7bb6778"
+            ]
+        ]
+    },
+    {
+        "id": "13d2c6b1548af1b3",
+        "type": "delay",
+        "z": "c0de8be3e13fd6c4",
+        "name": "Delay",
+        "pauseType": "rate",
+        "timeout": "30",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "30",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 330,
+        "y": 1020,
+        "wires": [
+            [
+                "85a1a750d171ff8c"
+            ]
+        ]
+    },
+    {
+        "id": "c70a1f6cd6b5dd5b",
+        "type": "inject",
+        "z": "c0de8be3e13fd6c4",
+        "name": "Hard coded values",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "234",
+        "payloadType": "num",
+        "x": 290,
+        "y": 460,
+        "wires": [
+            [
+                "e3ac0ca0bd60b244",
+                "7c25d7630685e613",
+                "3058e4c246504b04"
+            ]
+        ]
+    },
+    {
+        "id": "b67c40958913f51f",
+        "type": "ui_text",
+        "z": "c0de8be3e13fd6c4",
+        "group": "71d996a67cb8d3d6",
+        "order": 9,
+        "width": 11,
+        "height": 1,
+        "name": "",
+        "label": "Engine Status",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 880,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "7cfdb28d850ff251",
+        "type": "ui_text",
+        "z": "c0de8be3e13fd6c4",
+        "group": "2e68dcea.09dca2",
+        "order": 7,
+        "width": 6,
+        "height": 1,
+        "name": "",
+        "label": "Engine Status",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 880,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "e1cf6510bcc19130",
+        "type": "ui_text",
+        "z": "c0de8be3e13fd6c4",
+        "group": "8e832c9355044a0a",
+        "order": 7,
+        "width": 6,
+        "height": 1,
+        "name": "",
+        "label": "Engine Status",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 890,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "4d86a2bcaa0a7c04",
+        "type": "mqtt in",
+        "z": "e9a8f8bde6a6d1a7",
+        "name": "Distance",
+        "topic": "sensor/dist",
+        "qos": "2",
+        "datatype": "utf8",
+        "broker": "8e4887320f5edc13",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 340,
+        "y": 180,
+        "wires": [
+            [
+                "4bf2413673d5b69f"
+            ]
+        ]
+    },
+    {
+        "id": "4bf2413673d5b69f",
+        "type": "function",
+        "z": "e9a8f8bde6a6d1a7",
+        "name": "Accident Status",
+        "func": "msg.payload = Number(msg.payload)\nif (msg.payload <= 2) {\n    msg.payload = \"Obstacle detected, vehicle stopped\";\n} else {\n    msg.payload = \"No Accident Detected\";\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 180,
+        "wires": [
+            [
+                "7765a61cba48fa67",
+                "007de34f512da003"
+            ]
+        ]
+    },
+    {
+        "id": "7765a61cba48fa67",
+        "type": "debug",
+        "z": "e9a8f8bde6a6d1a7",
+        "name": "debug 34",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 900,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "b7332386c587e24e",
+        "type": "function",
+        "z": "e9a8f8bde6a6d1a7",
+        "name": "Accident Status",
+        "func": "msg.payload = Number(msg.payload)\nif (msg.payload <= 2) {\n    msg.payload = \"Obstacle detected, vehicle stopped\";\n} else {\n    msg.payload = \"No Accident Detected\";\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 660,
+        "wires": [
+            [
+                "24d54e84831b566f",
+                "815b1abf7643fc09"
+            ]
+        ]
+    },
+    {
+        "id": "24d54e84831b566f",
+        "type": "debug",
+        "z": "e9a8f8bde6a6d1a7",
+        "name": "debug 35",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 870,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "2be8fa63c51c4db0",
+        "type": "inject",
+        "z": "e9a8f8bde6a6d1a7",
+        "name": "Hard coded values",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "2.6",
+        "payloadType": "str",
+        "x": 410,
+        "y": 620,
+        "wires": [
+            [
+                "b7332386c587e24e"
+            ]
+        ]
+    },
+    {
+        "id": "0dc35b30df97d6a7",
+        "type": "inject",
+        "z": "e9a8f8bde6a6d1a7",
+        "name": "Hard coded values",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "44",
+        "payloadType": "str",
+        "x": 390,
+        "y": 700,
+        "wires": [
+            [
+                "b7332386c587e24e"
+            ]
+        ]
+    },
+    {
+        "id": "161bd2a3a5119735",
+        "type": "inject",
+        "z": "e9a8f8bde6a6d1a7",
+        "name": "Hard coded values",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "44",
+        "payloadType": "num",
+        "x": 370,
+        "y": 460,
+        "wires": [
+            [
+                "23dd51a67e69d9b2"
+            ]
+        ]
+    },
+    {
+        "id": "23dd51a67e69d9b2",
+        "type": "function",
+        "z": "e9a8f8bde6a6d1a7",
+        "name": "Accident Status",
+        "func": "msg.payload = Number(msg.payload)\nif (msg.payload <= 2) {\n    msg.payload = \"Obstacle detected, vehicle stopped\";\n} else {\n    msg.payload = \"No Accident Detected\";\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 380,
+        "wires": [
+            [
+                "472cf549e0ed63f0",
+                "e00d4b7e88c03b7f"
+            ]
+        ]
+    },
+    {
+        "id": "c5c4d72adc5f2194",
+        "type": "inject",
+        "z": "e9a8f8bde6a6d1a7",
+        "name": "Hard coded values",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "2.6",
+        "payloadType": "num",
+        "x": 390,
+        "y": 380,
+        "wires": [
+            [
+                "23dd51a67e69d9b2"
+            ]
+        ]
+    },
+    {
+        "id": "472cf549e0ed63f0",
+        "type": "debug",
+        "z": "e9a8f8bde6a6d1a7",
+        "name": "debug 36",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 850,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "007de34f512da003",
+        "type": "ui_text",
+        "z": "e9a8f8bde6a6d1a7",
+        "group": "71d996a67cb8d3d6",
+        "order": 7,
+        "width": 6,
+        "height": 1,
+        "name": "Accident detection",
+        "label": "Accident status",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 950,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "815b1abf7643fc09",
+        "type": "ui_text",
+        "z": "e9a8f8bde6a6d1a7",
+        "group": "8e832c9355044a0a",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "name": "Accident detection",
+        "label": "Accident status",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 950,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "e00d4b7e88c03b7f",
+        "type": "ui_text",
+        "z": "e9a8f8bde6a6d1a7",
+        "group": "2e68dcea.09dca2",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "name": "Accident detection",
+        "label": "Accident status",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 930,
+        "y": 480,
+        "wires": []
+    }
+]
